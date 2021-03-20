@@ -1,0 +1,28 @@
+{
+    "examples" : [
+       {
+          "PutRequest": {
+             "Item": {
+                "exampleId" : {
+                    "S": "123456789001"
+                },                       
+                "exampleValue" : {
+                    "S": "foo"
+                }
+             }
+          }
+       },
+       {
+        "PutRequest": {
+            "Item": {
+                "exampleId" : {
+                    "S": "123456789002"
+                },                       
+                "exampleValue" : {
+                    "S": "bar"
+                }
+            }
+          }
+       }
+    ]
+}
