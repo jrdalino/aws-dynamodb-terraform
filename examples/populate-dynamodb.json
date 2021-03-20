@@ -1,12 +1,12 @@
 {
-    "examples" : [
+    "organisations" : [
        {
           "PutRequest": {
              "Item": {
-                "exampleId" : {
+                "organisationId" : {
                     "S": "123456789001"
                 },                       
-                "exampleValue" : {
+                "organisationValue" : {
                     "S": "foo"
                 }
              }
@@ -15,10 +15,10 @@
        {
         "PutRequest": {
             "Item": {
-                "exampleId" : {
+                "organisationId" : {
                     "S": "123456789002"
                 },                       
-                "exampleValue" : {
+                "organisationValue" : {
                     "S": "bar"
                 }
             }
