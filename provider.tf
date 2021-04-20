@@ -9,7 +9,7 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = var.aws_region
+  region = "ap-southeast-1"
   assume_role {
     session_name = "terraform"
     role_arn     = "arn:aws:iam::${var.aws_account}:role/${var.aws_role}"
